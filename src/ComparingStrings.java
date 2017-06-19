@@ -14,6 +14,9 @@ public class ComparingStrings{
 	            System.out.println("Wear your jacket!");
 	        else if (answer.equals("snow"))
 	            System.out.println("Wear a coat and take a shovel!");
+	        else if (answer.equals("stormy")){
+	        	System.out.println("You should stay inside");
+	        }
 	        else
 	            System.out.println("Enjoy your day!");
 	}
